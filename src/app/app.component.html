@@ -1,0 +1,18 @@
+<button (click)="getApi()">Get data from Api</button>
+
+<div>
+  <li *ngFor="let experts of response" >
+
+<!-- <ul *ngFor="let exp1 of experts "> -->
+
+  {{experts |json}}
+
+    <!-- </ul> -->
+  </li>
+<!--
+ <img [src]="res?.categories_image" class="img-fluide" alt="image">
+{{res?.categories_image}} -->
+</div>
+
+<!-- <img [src]="res?.categories_image" class="img-fluide" alt="image">
+{{res?.categories_image}} -->
